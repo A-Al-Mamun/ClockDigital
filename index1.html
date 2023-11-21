@@ -4,73 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: sans-serif;
-            color: #fff;
-        }
-        body{
-            background: rgba(186, 85, 211, 0.74);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        h2{
-            font-weight: 400;
-            text-transform: uppercase;
-            font-size: medium;
-            margin-bottom: 20px;
-            letter-spacing: 10px;
-        }
-
-        .clock{
-            display: flex;
-            justify-content: center;
-            width: 700px;
-        }
-        .clock div{
-            margin: 5px;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            position: relative;
-        }
-        .clock div span{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100px;
-            height: 100px;
-            background: rgb(163, 8, 106);
-            font-size: 60px;
-            text-shadow: 2px 2px 4px rgba(0,0,0, 0.3);
-        }
-
-        .clock .text{
-            font-size: 10px!important;
-            height: 30px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            background-color: darkblue;
-        }
-
-        .clock #ampm{
-            position: absolute;
-            bottom: 0;
-            width: 60px;
-            height: 30px;
-            font-size: 20px;
-            background: green;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h2>Digital Clock</h2>
